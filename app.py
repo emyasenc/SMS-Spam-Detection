@@ -1,5 +1,5 @@
 from flask import Flask, request, render_template
-from pipeline.predict_pipeline import predict
+from src.pipeline.predict_pipeline import predict
 
 app = Flask(__name__)
 

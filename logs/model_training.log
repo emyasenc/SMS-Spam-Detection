@@ -1,0 +1,31 @@
+2024-08-25 10:46:37,904 - sms_spam_detector - INFO - Loading data from /Users/sophia/Desktop/SMS-Spam-Detection/data/raw/spam.csv
+2024-08-25 10:46:37,916 - sms_spam_detector - INFO - Preprocessing data
+2024-08-25 10:46:38,124 - sms_spam_detector - INFO - Tokenizer saved to models/tokenizer.pickle
+2024-08-25 10:46:38,124 - sms_spam_detector - INFO - Splitting data
+2024-08-25 10:46:38,231 - sms_spam_detector - INFO - Training model
+2024-08-25 10:54:45,679 - sms_spam_detector - INFO - Loading data from /Users/sophia/Desktop/SMS-Spam-Detection/data/raw/spam.csv
+2024-08-25 10:54:45,694 - sms_spam_detector - INFO - Preprocessing data
+2024-08-25 10:54:45,920 - sms_spam_detector - INFO - Splitting data
+2024-08-25 10:54:46,026 - sms_spam_detector - INFO - Training model
+2024-08-25 10:54:46,027 - sms_spam_detector - INFO - Starting model training
+2024-08-25 10:54:49,302 - sms_spam_detector - INFO - Model training complete
+2024-08-25 10:54:49,302 - sms_spam_detector - INFO - Evaluating model
+2024-08-25 10:54:49,302 - sms_spam_detector - INFO - Starting extended model evaluation
+2024-08-25 10:54:49,535 - sms_spam_detector - INFO - Evaluation Results - Loss: 0.04953565075993538, Accuracy: 0.9892376661300659, Precision: 1.0, Recall: 0.9194630872483222, F1 Score: 0.958041958041958
+2024-08-25 10:54:50,167 - sms_spam_detector - INFO - Model Evaluation - Loss: 0.04953565075993538, Accuracy: 0.9892376661300659
+2024-08-25 10:54:50,167 - sms_spam_detector - INFO - Saving model
+2024-08-25 10:54:50,167 - sms_spam_detector - INFO - Saving model to models/sms_spam_detector.h5
+2024-08-25 10:54:50,223 - sms_spam_detector - INFO - Model saved successfully
+2024-08-25 16:29:08,571 - sms_spam_detector - INFO - Loading data from /Users/sophia/Desktop/SMS-Spam-Detection/data/raw/spam.csv
+2024-08-25 16:29:08,599 - sms_spam_detector - INFO - Preprocessing data
+2024-08-25 16:29:08,825 - sms_spam_detector - INFO - Splitting data
+2024-08-25 16:29:08,940 - sms_spam_detector - INFO - Training model
+2024-08-25 16:29:08,941 - sms_spam_detector - INFO - Starting model training
+2024-08-25 16:29:12,365 - sms_spam_detector - INFO - Model training complete
+2024-08-25 16:29:12,365 - sms_spam_detector - INFO - Evaluating model
+2024-08-25 16:29:12,365 - sms_spam_detector - INFO - Starting extended model evaluation
+2024-08-25 16:29:12,613 - sms_spam_detector - INFO - Evaluation Results - Loss: 0.04883824288845062, Accuracy: 0.9892376661300659, Precision: 0.9858156028368794, Recall: 0.9328859060402684, F1 Score: 0.9586206896551724
+2024-08-25 16:29:13,013 - sms_spam_detector - INFO - Model Evaluation - Loss: 0.04883824288845062, Accuracy: 0.9892376661300659
+2024-08-25 16:29:13,013 - sms_spam_detector - INFO - Saving model
+2024-08-25 16:29:13,013 - sms_spam_detector - INFO - Saving model to models/sms_spam_detector.h5
+2024-08-25 16:29:13,060 - sms_spam_detector - INFO - Model saved successfully

@@ -1,0 +1,40 @@
+2024-08-25 16:16:12,207 - sms_spam_detector - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/models/sms_spam_detector.h5
+2024-08-25 16:16:12,461 - sms_spam_detector - INFO - Preprocessing texts for prediction
+2024-08-25 16:16:12,462 - sms_spam_detector - INFO - Making predictions
+2024-08-25 16:19:29,837 - sms_spam_detector - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/models/sms_spam_detector.h5
+2024-08-25 16:19:30,001 - sms_spam_detector - INFO - Preprocessing texts for prediction
+2024-08-25 16:19:30,001 - sms_spam_detector - INFO - Making predictions
+2024-08-25 16:20:10,467 - sms_spam_detector - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/models/sms_spam_detector.h5
+2024-08-25 16:20:10,635 - sms_spam_detector - INFO - Preprocessing texts for prediction
+2024-08-25 16:20:10,635 - sms_spam_detector - INFO - Making predictions
+2024-08-25 16:20:30,433 - sms_spam_detector - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/models/sms_spam_detector.h5
+2024-08-25 16:20:30,509 - sms_spam_detector - INFO - Preprocessing texts for prediction
+2024-08-25 16:20:30,509 - sms_spam_detector - INFO - Making predictions
+2024-08-25 16:20:51,233 - sms_spam_detector - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/models/sms_spam_detector.h5
+2024-08-25 16:20:51,306 - sms_spam_detector - INFO - Preprocessing texts for prediction
+2024-08-25 16:20:51,307 - sms_spam_detector - INFO - Making predictions
+2024-08-25 16:21:28,168 - sms_spam_detector - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/models/sms_spam_detector.h5
+2024-08-25 16:21:28,248 - sms_spam_detector - INFO - Preprocessing texts for prediction
+2024-08-25 16:21:28,249 - sms_spam_detector - INFO - Making predictions
+2024-08-25 16:23:01,650 - sms_spam_detector - INFO - Preprocessing texts for prediction
+2024-08-25 16:23:01,651 - sms_spam_detector - INFO - Making predictions
+2024-08-25 16:45:40,738 - sms_spam_detector - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/models/sms_spam_detector.h5
+2024-08-25 16:45:50,072 - sms_spam_detector - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/models/sms_spam_detector.h5
+2024-08-25 16:47:38,539 - sms_spam_detector - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/models/sms_spam_detector.h5
+2024-08-25 16:47:38,724 - sms_spam_detector - INFO - Preprocessing texts for prediction
+2024-08-25 16:47:38,725 - sms_spam_detector - INFO - Making predictions
+2024-08-25 16:47:44,590 - sms_spam_detector - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/models/sms_spam_detector.h5
+2024-08-25 16:47:44,669 - sms_spam_detector - INFO - Preprocessing texts for prediction
+2024-08-25 16:47:44,670 - sms_spam_detector - INFO - Making predictions
+2024-08-25 16:47:54,888 - sms_spam_detector - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/models/sms_spam_detector.h5
+2024-08-25 16:47:54,962 - sms_spam_detector - INFO - Preprocessing texts for prediction
+2024-08-25 16:47:54,963 - sms_spam_detector - INFO - Making predictions
+2024-08-25 16:48:05,056 - sms_spam_detector - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/models/sms_spam_detector.h5
+2024-08-25 16:48:05,153 - sms_spam_detector - INFO - Preprocessing texts for prediction
+2024-08-25 16:48:05,154 - sms_spam_detector - INFO - Making predictions
+2024-08-25 16:49:05,206 - sms_spam_detector - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/models/sms_spam_detector.h5
+2024-08-25 16:49:05,283 - sms_spam_detector - INFO - Preprocessing texts for prediction
+2024-08-25 16:49:05,283 - sms_spam_detector - INFO - Making predictions
+2024-08-25 16:49:40,888 - sms_spam_detector - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/models/sms_spam_detector.h5
+2024-08-25 16:49:40,965 - sms_spam_detector - INFO - Preprocessing texts for prediction
+2024-08-25 16:49:40,966 - sms_spam_detector - INFO - Making predictions

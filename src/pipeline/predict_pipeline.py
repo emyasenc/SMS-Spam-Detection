@@ -21,7 +21,7 @@ def load_trained_model(filepath='/Users/sophia/Desktop/SMS-Spam-Detection/src/mo
     model = load_model(filepath)
     return model
 
-def load_tokenizer(filepath='models/tokenizer.pickle'):
+def load_tokenizer(filepath='/Users/sophia/Desktop/SMS-Spam-Detection/src/models/tokenizer.pickle'):
     """
     Loads a pre-trained tokenizer from a file.
     
