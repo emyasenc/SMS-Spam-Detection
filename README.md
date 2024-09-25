@@ -37,7 +37,7 @@ To get started with the SMS Spam Detection application, follow these installatio
 
 ## Usage
 
-# Training the Model
+### Training the Model
 
 To train the spam detection model, run the following command. This will load the dataset, preprocess the data, and train the neural network model.
 
