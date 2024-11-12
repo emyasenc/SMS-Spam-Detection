@@ -3,7 +3,7 @@ import logging
 
 def get_logger(log_path="logs/predict_pipeline.log"):
     # Ensure the logs directory exists (relative to the current working directory)
-    log_dir = os.path.dirname(log_path)
+    log_dir = os.path.join(os.path.dirname(__file__), '..', '..', 'logs', 'predict_pipeline.log')
     if not os.path.exists(log_dir):
         os.makedirs(log_dir, exist_ok=True)  # Create logs directory if it doesn't exist
 
