@@ -5,7 +5,7 @@ import pickle
 from src.logger import get_logger
 
 # Initialize logger
-logger = get_logger('/Users/sophia/Desktop/SMS-Spam-Detection/logs/predict_pipeline.log')
+logger = get_logger() 
 
 def load_trained_model(filepath='/Users/sophia/Desktop/SMS-Spam-Detection/src/models/sms_spam_detector.h5'):
     """
