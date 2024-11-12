@@ -38,3 +38,6 @@
 2024-08-25 16:49:40,888 - sms_spam_detector - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/models/sms_spam_detector.h5
 2024-08-25 16:49:40,965 - sms_spam_detector - INFO - Preprocessing texts for prediction
 2024-08-25 16:49:40,966 - sms_spam_detector - INFO - Making predictions
+2024-11-12 18:08:10,806 - sms_spam_detector - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/models/sms_spam_detector.h5
+2024-11-12 18:08:11,009 - sms_spam_detector - INFO - Preprocessing texts for prediction
+2024-11-12 18:08:11,010 - sms_spam_detector - INFO - Making predictions
