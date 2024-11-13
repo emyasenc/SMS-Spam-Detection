@@ -41,3 +41,12 @@
 2024-11-12 18:08:10,806 - sms_spam_detector - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/models/sms_spam_detector.h5
 2024-11-12 18:08:11,009 - sms_spam_detector - INFO - Preprocessing texts for prediction
 2024-11-12 18:08:11,010 - sms_spam_detector - INFO - Making predictions
+2024-11-12 19:04:46,938 - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/models/sms_spam_detector.h5
+2024-11-12 19:04:47,152 - INFO - Preprocessing texts for prediction
+2024-11-12 19:04:47,153 - INFO - Making predictions
+2024-11-12 19:04:52,861 - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/models/sms_spam_detector.h5
+2024-11-12 19:04:52,964 - INFO - Preprocessing texts for prediction
+2024-11-12 19:04:52,964 - INFO - Making predictions
+2024-11-12 19:04:53,392 - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/models/sms_spam_detector.h5
+2024-11-12 19:04:53,491 - INFO - Preprocessing texts for prediction
+2024-11-12 19:04:53,491 - INFO - Making predictions

@@ -3,9 +3,13 @@ from keras.models import load_model
 from keras.preprocessing.sequence import pad_sequences
 import pickle
 from src.logger import get_logger
+import os
 
-# Initialize logger
-logger = get_logger('/Users/sophia/Desktop/SMS-Spam-Detection/logs/predict_pipeline.log')
+# Set log file path for local development or testing
+log_file_path = os.path.join(os.getcwd(), 'logs', 'predict_pipeline.log')
+
+# Get logger
+logger = get_logger(log_file_path)  # Pass the log file path or None for console logging
 
 def load_trained_model(filepath='/Users/sophia/Desktop/SMS-Spam-Detection/src/models/sms_spam_detector.h5'):
     """
@@ -17,7 +21,9 @@ def load_trained_model(filepath='/Users/sophia/Desktop/SMS-Spam-Detection/src/mo
     Returns:
         model: The loaded Keras model.
     """
-    logger.info(f"Loading model from {filepath}")
+    if logger:
+        logger.info(f"Loading model from {filepath}")
+    
     model = load_model(filepath)
     return model
 
@@ -48,11 +54,15 @@ def make_predictions(model, tokenizer, texts, max_len=100):
     Returns:
         predictions (list): List of predicted labels.
     """
-    logger.info("Preprocessing texts for prediction")
+    if logger:
+        logger.info("Preprocessing texts for prediction")
+    
     sequences = tokenizer.texts_to_sequences(texts)
     X = pad_sequences(sequences, maxlen=max_len)
     
-    logger.info("Making predictions")
+    if logger:
+        logger.info("Making predictions")
+    
     predictions = model.predict(X)
     return predictions
 
