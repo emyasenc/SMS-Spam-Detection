@@ -3,9 +3,10 @@ numpy
 scikit-learn
 seaborn
 matplotlib
-tensorflow
+tensorflow==2.15.0
 pyyaml
 pytest
 pytest-mock
 flask
+streamlit
 #-e .
