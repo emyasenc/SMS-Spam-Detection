@@ -11,7 +11,7 @@ log_file_path = os.path.join(os.getcwd(), 'logs', 'predict_pipeline.log')
 # Get logger
 logger = get_logger(log_file_path)  # Pass the log file path or None for console logging
 
-def load_trained_model(filepath='/Users/sophia/Desktop/SMS-Spam-Detection/src/models/sms_spam_detector.h5'):
+def load_trained_model():
     """
     Loads a pre-trained model from a file.
     
@@ -21,13 +21,20 @@ def load_trained_model(filepath='/Users/sophia/Desktop/SMS-Spam-Detection/src/mo
     Returns:
         model: The loaded Keras model.
     """
-    if logger:
-        logger.info(f"Loading model from {filepath}")
+    # Update this path to reflect the 'models' directory inside 'src'
+    model_path = os.path.join(os.path.dirname(__file__), 'models', 'sms_spam_detection.h5')
     
-    model = load_model(filepath)
-    return model
+    if logger:
+        logger.info(f"Loading model from {model_path}")
+    
+    # Check if the model file exists before trying to load it
+    if os.path.exists(model_path):
+        model = load_model(model_path)
+        return model
+    else:
+        raise FileNotFoundError(f"Model file not found at {model_path}")
 
-def load_tokenizer(filepath='/Users/sophia/Desktop/SMS-Spam-Detection/src/models/tokenizer.pickle'):
+def load_tokenizer():
     """
     Loads a pre-trained tokenizer from a file.
     
@@ -37,9 +44,19 @@ def load_tokenizer(filepath='/Users/sophia/Desktop/SMS-Spam-Detection/src/models
     Returns:
         tokenizer: The loaded Keras Tokenizer.
     """
-    with open(filepath, 'rb') as file:
-        tokenizer = pickle.load(file)
-    return tokenizer
+    # Update this path to reflect the 'models' directory inside 'src'
+    tokenizer_path = os.path.join(os.path.dirname(__file__), 'models', 'tokenizer.pickle')
+    
+    if logger:
+        logger.info(f"Loading tokenizer from {tokenizer_path}")
+    
+    # Check if the tokenizer file exists before trying to load it
+    if os.path.exists(tokenizer_path):
+        with open(tokenizer_path, 'rb') as file:
+            tokenizer = pickle.load(file)
+        return tokenizer
+    else:
+        raise FileNotFoundError(f"Tokenizer file not found at {tokenizer_path}")
 
 def make_predictions(model, tokenizer, texts, max_len=100):
     """
