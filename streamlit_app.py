@@ -27,9 +27,17 @@ message = st.text_input("Message:")
 if st.button("Predict"):
     if message:
         # Call the prediction function directly with the message
-        predictions = predict([message], model)  # Pass the model to the predict function
-        predicted_labels = (predictions > 0.5).astype(int).tolist()
-        prediction_text = "Spam" if predicted_labels[0] == 1 else "Not Spam"
+        predictions = predict([message])  # Make the prediction
+        
+        # Display raw predictions (for debugging/logging purposes)
+        st.write(f"Raw predictions: {predictions}")
+        
+        # Apply threshold: 0.5 means the cutoff between spam and not spam
+        if predictions[0] > 0.5:  # If probability is greater than 0.5
+            prediction_text = "Spam"
+        else:  # If probability is less than or equal to 0.5
+            prediction_text = "Not Spam"
+        
         st.write(f"Prediction: **{prediction_text}**")
     else:
         st.warning("Please enter a message to analyze.")

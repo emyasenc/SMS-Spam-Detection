@@ -2,8 +2,8 @@ import logging
 from keras.models import load_model
 from keras.preprocessing.sequence import pad_sequences
 import pickle
-from src.logger import get_logger
 import os
+from src.logger import get_logger
 
 # Set log file path for local development or testing
 log_file_path = os.path.join(os.getcwd(), 'logs', 'predict_pipeline.log')
@@ -13,28 +13,24 @@ logger = get_logger(log_file_path)  # Pass the log file path or None for console
 
 def load_trained_model():
     """
-    Loads a pre-trained model from a file.
-    
-    Args:
-        filepath (str): The path to the saved model file.
-        
-    Returns:
-        model: The loaded Keras model.
+    Loads a pre-trained model from the 'models' directory inside the 'src' folder.
     """
-    # Update this path to reflect the 'models' directory inside 'src'
-    model_path = os.path.join(os.path.dirname(__file__), 'models', 'sms_spam_detection.h5')
-    
+    # Build the relative path to the model file (corrected name)
+    model_path = os.path.join(os.path.dirname(__file__), '..', 'models', 'sms_spam_detector.h5')
+
+    # Log the model path for debugging purposes
     if logger:
         logger.info(f"Loading model from {model_path}")
-    
-    # Check if the model file exists before trying to load it
-    if os.path.exists(model_path):
-        model = load_model(model_path)
-        return model
-    else:
+
+    # Check if the model file exists
+    if not os.path.exists(model_path):
         raise FileNotFoundError(f"Model file not found at {model_path}")
 
-def load_tokenizer():
+    # Load and return the model
+    model = load_model(model_path)
+    return model
+
+def load_tokenizer(filepath=None):
     """
     Loads a pre-trained tokenizer from a file.
     
@@ -44,19 +40,12 @@ def load_tokenizer():
     Returns:
         tokenizer: The loaded Keras Tokenizer.
     """
-    # Update this path to reflect the 'models' directory inside 'src'
-    tokenizer_path = os.path.join(os.path.dirname(__file__), 'models', 'tokenizer.pickle')
+    if filepath is None:
+        filepath = os.path.join(os.path.dirname(__file__), '..', 'models', 'tokenizer.pickle')
     
-    if logger:
-        logger.info(f"Loading tokenizer from {tokenizer_path}")
-    
-    # Check if the tokenizer file exists before trying to load it
-    if os.path.exists(tokenizer_path):
-        with open(tokenizer_path, 'rb') as file:
-            tokenizer = pickle.load(file)
-        return tokenizer
-    else:
-        raise FileNotFoundError(f"Tokenizer file not found at {tokenizer_path}")
+    with open(filepath, 'rb') as file:
+        tokenizer = pickle.load(file)
+    return tokenizer
 
 def make_predictions(model, tokenizer, texts, max_len=100):
     """
@@ -74,6 +63,7 @@ def make_predictions(model, tokenizer, texts, max_len=100):
     if logger:
         logger.info("Preprocessing texts for prediction")
     
+    # Convert texts to sequences and pad them
     sequences = tokenizer.texts_to_sequences(texts)
     X = pad_sequences(sequences, maxlen=max_len)
     
@@ -93,6 +83,9 @@ def predict(texts):
     Returns:
         predictions: Predictions for the input texts.
     """
+    # Load the model and tokenizer
     model = load_trained_model()
     tokenizer = load_tokenizer()
+    
+    # Make predictions and return the results
     return make_predictions(model, tokenizer, texts)

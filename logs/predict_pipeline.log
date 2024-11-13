@@ -50,3 +50,56 @@
 2024-11-12 19:04:53,392 - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/models/sms_spam_detector.h5
 2024-11-12 19:04:53,491 - INFO - Preprocessing texts for prediction
 2024-11-12 19:04:53,491 - INFO - Making predictions
+2024-11-12 19:40:38,040 - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/pipeline/models/sms_spam_detection.h5
+2024-11-12 19:43:22,888 - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/pipeline/../models/sms_spam_detection.h5
+2024-11-12 19:49:58,959 - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/pipeline/../models/sms_spam_detector.h5
+2024-11-12 19:49:59,144 - INFO - Preprocessing texts for prediction
+2024-11-12 19:49:59,163 - INFO - Making predictions
+2024-11-12 19:50:08,822 - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/pipeline/../models/sms_spam_detector.h5
+2024-11-12 19:50:08,931 - INFO - Preprocessing texts for prediction
+2024-11-12 19:50:08,931 - INFO - Making predictions
+2024-11-12 19:50:09,371 - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/pipeline/../models/sms_spam_detector.h5
+2024-11-12 19:50:09,469 - INFO - Preprocessing texts for prediction
+2024-11-12 19:50:09,469 - INFO - Making predictions
+2024-11-12 19:50:09,688 - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/pipeline/../models/sms_spam_detector.h5
+2024-11-12 19:50:09,787 - INFO - Preprocessing texts for prediction
+2024-11-12 19:50:09,788 - INFO - Making predictions
+2024-11-12 19:50:15,687 - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/pipeline/../models/sms_spam_detector.h5
+2024-11-12 19:50:15,783 - INFO - Preprocessing texts for prediction
+2024-11-12 19:50:15,783 - INFO - Making predictions
+2024-11-12 19:50:43,873 - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/pipeline/../models/sms_spam_detector.h5
+2024-11-12 19:50:43,983 - INFO - Preprocessing texts for prediction
+2024-11-12 19:50:43,983 - INFO - Making predictions
+2024-11-12 19:50:46,204 - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/pipeline/../models/sms_spam_detector.h5
+2024-11-12 19:50:46,305 - INFO - Preprocessing texts for prediction
+2024-11-12 19:50:46,305 - INFO - Making predictions
+2024-11-12 19:50:46,519 - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/pipeline/../models/sms_spam_detector.h5
+2024-11-12 19:50:46,616 - INFO - Preprocessing texts for prediction
+2024-11-12 19:50:46,617 - INFO - Making predictions
+2024-11-12 19:50:46,804 - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/pipeline/../models/sms_spam_detector.h5
+2024-11-12 19:50:46,912 - INFO - Preprocessing texts for prediction
+2024-11-12 19:50:46,912 - INFO - Making predictions
+2024-11-12 19:50:47,371 - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/pipeline/../models/sms_spam_detector.h5
+2024-11-12 19:50:47,466 - INFO - Preprocessing texts for prediction
+2024-11-12 19:50:47,466 - INFO - Making predictions
+2024-11-12 19:50:47,645 - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/pipeline/../models/sms_spam_detector.h5
+2024-11-12 19:50:47,752 - INFO - Preprocessing texts for prediction
+2024-11-12 19:50:47,752 - INFO - Making predictions
+2024-11-12 19:50:49,937 - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/pipeline/../models/sms_spam_detector.h5
+2024-11-12 19:50:50,040 - INFO - Preprocessing texts for prediction
+2024-11-12 19:50:50,040 - INFO - Making predictions
+2024-11-12 19:53:05,155 - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/pipeline/../models/sms_spam_detector.h5
+2024-11-12 19:53:05,256 - INFO - Preprocessing texts for prediction
+2024-11-12 19:53:05,256 - INFO - Making predictions
+2024-11-12 19:54:56,219 - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/pipeline/../models/sms_spam_detector.h5
+2024-11-12 19:54:56,288 - INFO - Preprocessing texts for prediction
+2024-11-12 19:54:56,288 - INFO - Making predictions
+2024-11-12 19:56:37,735 - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/pipeline/../models/sms_spam_detector.h5
+2024-11-12 19:56:37,799 - INFO - Preprocessing texts for prediction
+2024-11-12 19:56:37,800 - INFO - Making predictions
+2024-11-12 19:58:26,324 - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/pipeline/../models/sms_spam_detector.h5
+2024-11-12 19:58:26,393 - INFO - Preprocessing texts for prediction
+2024-11-12 19:58:26,393 - INFO - Making predictions
+2024-11-12 19:58:35,818 - INFO - Loading model from /Users/sophia/Desktop/SMS-Spam-Detection/src/pipeline/../models/sms_spam_detector.h5
+2024-11-12 19:58:35,888 - INFO - Preprocessing texts for prediction
+2024-11-12 19:58:35,888 - INFO - Making predictions
