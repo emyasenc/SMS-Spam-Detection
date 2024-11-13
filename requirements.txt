@@ -9,4 +9,5 @@ pytest
 pytest-mock
 flask
 streamlit
+pickle
 #-e .
