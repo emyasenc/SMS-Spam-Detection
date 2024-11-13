@@ -1,4 +1,5 @@
 import logging
+import tensorflow as tf
 from keras.models import load_model
 from keras.preprocessing.sequence import pad_sequences
 import pickle

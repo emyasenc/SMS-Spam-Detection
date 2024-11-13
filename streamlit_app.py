@@ -1,5 +1,6 @@
 import os
 import streamlit as st
+import tensorflow as tf
 from keras.models import load_model  # Import load_model from tensorflow
 from src.pipeline.predict_pipeline import predict  # Assuming this function is implemented to handle prediction
 
@@ -28,9 +29,6 @@ if st.button("Predict"):
     if message:
         # Call the prediction function directly with the message
         predictions = predict([message])  # Make the prediction
-        
-        # Display raw predictions (for debugging/logging purposes)
-        st.write(f"Raw predictions: {predictions}")
         
         # Apply threshold: 0.5 means the cutoff between spam and not spam
         if predictions[0] > 0.5:  # If probability is greater than 0.5
